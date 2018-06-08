@@ -1,0 +1,17 @@
+﻿^ContentPage{
+    padding: 20;
+}
+
+#MyStackLayout{
+    width: 200;
+    height: 200;
+    padding: 20;
+    background-color: blue;
+}
+
+#MyStackLayout label {
+    font-size:large;
+    color: red;
+    text-align: center;
+    
+}

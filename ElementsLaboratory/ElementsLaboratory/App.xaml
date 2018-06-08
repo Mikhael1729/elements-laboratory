@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="ElementsLaboratory.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <!--  Region Colors  -->
+            <Color x:Key="PrimaryColor">#9D9C9B</Color>
+            <Color x:Key="PrimaryDarkColor">#363636</Color>
+            <Color x:Key="AccentColor">#009DFF</Color>
+            <Color x:Key="LightBackgroundColor">#FAFAFA</Color>
+            <Color x:Key="DarkBackgroundColor">#363636</Color>
+            <Color x:Key="MediumGrayTextColor">#919191</Color>
+            <Color x:Key="TextColorNormal">#BEBEBE</Color>
+            <Color x:Key="TitleColor">White</Color>
+            <Color x:Key="LightTextColor">#363636</Color>
+            <!--  EndRegion  -->
+
+            <!--  Region Styles  -->
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource PrimaryDarkColor}" />
+                <Setter Property="BarTextColor" Value="{StaticResource MediumGrayTextColor}" />
+            </Style>
+
+            <Style ApplyToDerivedTypes="True" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource DarkBackgroundColor}" />
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource TextColorNormal}" />
+            </Style>
+            <!--  EndRegion  -->
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ElementsLaboratory.Views.FlexLayoutTest"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:ElementsLaboratory.Controls">
+    <ContentPage.Content>
+
+        <Grid>
+            <ScrollView>
+                <FlexLayout
+                    x:Name="flexLayout"
+                    JustifyContent="SpaceAround"
+                    Wrap="Wrap" />
+            </ScrollView>
+
+            <ActivityIndicator
+                x:Name="activityIndicator"
+                IsRunning="True"
+                VerticalOptions="Center" />
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

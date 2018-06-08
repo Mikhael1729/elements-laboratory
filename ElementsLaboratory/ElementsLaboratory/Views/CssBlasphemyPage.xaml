@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ElementsLaboratory.Views.CssBlasphemyPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/Styles/CssBlasphemyStyle.css" />
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!--  Title  -->
+            <Label FontSize="Large">This is the Css Blasphemy Page</Label>
+
+            <StackLayout x:Name="MyStackLayout">
+                <Label>Other label</Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

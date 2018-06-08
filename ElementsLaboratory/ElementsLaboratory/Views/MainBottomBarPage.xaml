@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xf:BottomBarPage
+    x:Class="ElementsLaboratory.Views.MainBottomBarPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ElementsLaboratory.Views"
+    xmlns:xf="clr-namespace:ElementsLaboratory.Controls"
+    Title="Mikhael's Notes"
+    BarTextColor="#FFE079"
+    BarTheme="DarkWithoutAlpha">
+
+    <views:ExperimentsPage Title="Experiments" Icon="ic_home.png" />
+    <views:FlexLayoutTest Title="Flex layout" Icon="ic_second.png" />
+    <views:CssBlasphemyPage Title="Css Blasphemy" Icon="ic_third" />
+    <views:ToAnyThingPage Title="Notes" Icon="ic_home.png" />
+
+</xf:BottomBarPage>
