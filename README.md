@@ -1,3 +1,3 @@
 # Elements Laboratory
 
- It's the place to place my custom Xamarin.Forms elements.
+ It'is the place to experiment with my custom Xamarin.Forms elements.
